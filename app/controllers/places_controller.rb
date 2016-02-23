@@ -25,6 +25,11 @@ class PlacesController < ApplicationController
   end
 
 
+  def edit
+    @place = Place.find(params[:id])
+  end
+
+
   private
 
   	def place_params
