@@ -25,6 +25,9 @@ gem 'will_paginate-bootstrap'
 
 gem 'simple_form'
 
+gem 'devise', '>= 3.2.4'
+
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
