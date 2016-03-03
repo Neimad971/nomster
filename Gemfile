@@ -31,6 +31,10 @@ gem "geocoder"
 
 gem "figaro", ">= 1.0.0"
 
+gem 'carrierwave'
+
+gem 'mini_magick'
+
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
