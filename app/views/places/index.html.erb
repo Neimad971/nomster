@@ -30,8 +30,7 @@
 	  <div class="col-xs-12">
 		<blockquote>
 		  <% place.photos.each do |photo| %>
-    	    <!-- <%= image_tag photo.picture.resized %> -->
-    	    <!-- <%= image_tag photo.picture.url(:resized) %> -->
+    	    
     	    <%= image_tag photo.picture, :class => "img-responsive center-block" %><br>
   		    <%= photo.caption %>
   		  <% end %>
